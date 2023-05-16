@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk-jammy
+FROM nginx:latest
 
 COPY target/Agustin-0.0.1-SNAPSHOT.jar app.jar
 
